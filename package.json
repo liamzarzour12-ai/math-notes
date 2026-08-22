@@ -1,12 +1,15 @@
 {
-  "name": "ipad-vercel-proxy",
+  "name": "ipad-railway-proxy",
   "version": "1.0.0",
   "type": "module",
+  "description": "Ultraviolet proxy optimized for Railway persistent servers",
+  "main": "server.js",
   "scripts": {
-    "build": "cp -r node_modules/@titaniumnetwork-dev/ultraviolet/dist public/uv"
+    "start": "node server.js"
   },
   "dependencies": {
-    "@titaniumnetwork-dev/ultraviolet": "^3.2.7"
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "fastify": "^4.28.1",
+    "@fastify/static": "^7.0.4"
   }
 }
-
