@@ -1,0 +1,9 @@
+{
+  "name": "ipad-vercel-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ultraviolet proxy optimized for Vercel Native Architecture",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7"
+  }
+}
