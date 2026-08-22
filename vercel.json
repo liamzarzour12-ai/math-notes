@@ -1,15 +1,14 @@
 {
   "version": 2,
-  "public": true,
   "cleanUrls": true,
-  "rewrites": [
+  "trailingSlash": false,
+  "routes": [
     {
-      "source": "/uv/(.*)",
-      "destination": "/node_modules/@titaniumnetwork-dev/ultraviolet/dist/$1"
+      "handle": "filesystem"
     },
     {
-      "source": "/(.*)",
-      "destination": "/public/index.html"
+      "src": "/(.*)",
+      "dest": "/public/index.html"
     }
   ]
 }
